@@ -1,95 +1,154 @@
-# Arogya Sahaya Connect
+# 🏥 DigiCare – Digital Health Record Management System (DHRMS)
 
-A healthcare management application for managing family health records, vaccinations, and medical information.
+## 🚀 Smart India Hackathon 2025 Project
 
-## Getting Started
+**Problem Statement ID:** SIH25083
+**Theme:** Healthcare & Social Welfare
+**Team:** DigiCare Squad
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+---
 
-### Installation
+## 📌 Overview
 
-1. Clone the repository using the project's Git URL
-2. Navigate to the project directory
-3. Install dependencies:
-```bash
-npm install
-```
+DigiCare is an **offline-first, multilingual Digital Health Record Management System** designed for migrant workers and their families in Kerala. It ensures **secure, portable, and continuous access to healthcare records**, even in low or no internet connectivity areas.
 
-4. Create a `.env.local` file in the root directory with your configuration:
-```
-VITE_APP_ID=your_app_id
-VITE_APP_BASE_URL=http://localhost:3000
-```
+The system uses **ABHA-linked QR-based digital health IDs** to enable instant access to verified medical records across hospitals, clinics, and mobile health units.
 
-### Development
+---
 
-Run the development server:
-```bash
-npm run dev
-```
+## ❗ Problem Statement
 
-The app will be available at `http://localhost:5173`
+Migrant workers face major healthcare challenges:
 
-### Build
+* ❌ No portable medical records
+* ❌ Fragmented health data across hospitals
+* ❌ Difficulty in tracking vaccinations & medications
+* ❌ Language barriers in healthcare access
+* ❌ Poor disease monitoring for mobile populations
 
-Build for production:
-```bash
-npm run build
-```
+---
 
-### Preview
+## 💡 Proposed Solution
 
-Preview the production build:
-```bash
-npm run preview
-```
+DigiCare provides a **unified digital health ecosystem** where:
 
-## Project Structure
+* Each worker gets a **QR/NFC-based Health ID**
+* Doctors can **scan and access medical history instantly**
+* Records are available **offline and sync automatically**
+* Entire **family health records are managed together**
+* Notifications and alerts are **multilingual**
 
-- `src/pages` - Application pages (Auth, Dashboard, Family, MedicalRecords, etc.)
-- `src/components` - Reusable React components and UI components
-- `src/lib` - Utility libraries and context providers
-- `src/api` - API client configuration
-- `src/hooks` - Custom React hooks
-- `entities` - JSON schema definitions for data models
+---
 
-## Available Scripts
+## 🔥 Key Features
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Fix linting issues
-- `npm run typecheck` - Check TypeScript types
+* 🆔 **ABHA-linked QR Digital Health ID**
+* 📱 **Offline-First Access with Auto Sync**
+* 🌍 **Multilingual Support for Inclusivity**
+* 👨‍👩‍👧 **Family-Based Health Record Management**
+* 💉 **Vaccination & Medication Tracking**
+* 🔔 **Smart Alerts & Reminders**
+* 🔐 **Secure, Consent-Based Data Access**
+* 📊 **Health Analytics & Public Health Insights (Future Scope)**
 
-## Features
+---
 
-- User authentication
-- Family member management
-- Medical records tracking
-- Vaccination records
-- QR code scanning
-- Responsive design with Tailwind CSS
+## ⚙️ Tech Stack
 
-## Technology Stack
+* **Frontend:** React.js / Flutter / React Native
+* **Backend:** Node.js / Django REST API
+* **Database:** PostgreSQL + MongoDB
+* **Offline Storage:** SQLite / Local DB
+* **Cloud:** AWS / Azure / GCP
+* **APIs:** QR/NFC APIs, Notification APIs
 
-- React 18+
-- Vite
-- React Router
-- React Query (@tanstack/react-query)
-- Tailwind CSS
-- Radix UI components
-- Axios for HTTP client
-- React Hook Form for form handling
+---
 
-**Publish your changes**
+## 🏗️ System Architecture
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+* Data stored locally (offline mode)
+* Syncs with secure cloud database when online
+* Role-based access (Doctor, Worker, NGO)
+* Encrypted ABHA-linked digital identity
+* API integration with government health systems
 
-**Docs & Support**
+---
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+## ⚡ How It Works
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+1. 👤 Worker registers and gets a QR-based Health ID
+2. 🏥 Doctor scans QR to access health records
+3. 📝 Records updated during consultation
+4. 📱 Data available offline and synced automatically
+5. 🔔 Alerts sent for vaccines, medicines, and checkups
+
+---
+
+## 🎥 Demo
+
+👉 https://youtu.be/HvThVQP9Hro
+
+---
+
+## 🌍 Real-World Impact
+
+* ✅ Enables **continuity of care across locations**
+* ✅ Reduces repeated tests and delays
+* ✅ Improves **preventive healthcare & vaccination tracking**
+* ✅ Supports **real-time disease surveillance**
+* ✅ Ensures **equitable healthcare access**
+
+---
+
+## 🎯 SDG Alignment
+
+* **SDG 3:** Good Health & Well-being
+* **SDG 10:** Reduced Inequalities
+* **SDG 17:** Partnerships for Goals
+
+---
+
+## 🚧 Challenges & Solutions
+
+| Challenge          | Solution                            |
+| ------------------ | ----------------------------------- |
+| No internet access | Offline-first system with auto-sync |
+| Data security      | Encryption + role-based access      |
+| Language barriers  | Multilingual UI & alerts            |
+| Data accuracy      | Doctor verification & validation    |
+
+---
+
+## 🔮 Future Enhancements
+
+* 🤖 AI-based disease prediction
+* 📊 Advanced health analytics dashboard
+* 🏥 Integration with national health schemes
+* ⌚ Wearable health data integration
+
+---
+
+## 👥 Team – DigiCare Squad
+
+* Shrusti M P
+* Mitul Sai S
+* Dilip H S
+* Manoj Kumar B M
+* Harshavardha K
+* Ramkumar I Aski
+
+---
+
+## 📚 References
+
+* National Digital Health Mission (NDHM)
+* Ayushman Bharat Digital Mission (ABDM)
+* WHO Digital Health Guidelines
+* National Health Authority (India)
+* Research on Migrant Healthcare in Kerala
+
+---
+
+## 📜 License
+
+This project is developed for **Smart India Hackathon 2025** and is intended for academic and innovation purposes.
